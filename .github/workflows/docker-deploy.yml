@@ -25,5 +25,5 @@ jobs:
 
       - name: Build and push Docker image to ACR
         run: |
-          docker build -t <your-acr>.azurecr.io/flask-app:latest ./docker/app
+          docker build -t devopsacr70763.azurecr.io/flask-app:latest ./docker/app
           docker push devopsacr70763.azurecr.io/flask-app:latest
