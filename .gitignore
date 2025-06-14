@@ -1,0 +1,18 @@
+# Ignore Terraform state
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and secrets
+*.log
+.env
